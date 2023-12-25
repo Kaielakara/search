@@ -1,5 +1,16 @@
 $color : red;
 
-body{
-    background-color: $color;
+
+img{
+    width: 100%;
+  }
+
+.user_pfp {
+    width: 100%;
+}
+
+nav {
+    ul {
+        list-style: none;
+    }
 }

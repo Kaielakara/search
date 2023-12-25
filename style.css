@@ -1,4 +1,10 @@
-body {
-  background-color: red; }
+img {
+  width: 100%; }
+
+.user_pfp {
+  width: 100%; }
+
+nav ul {
+  list-style: none; }
 
 /*# sourceMappingURL=style.css.map */
