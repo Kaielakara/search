@@ -1,21 +1,40 @@
 img {
   width: 100%; }
 
-nav ul {
-  list-style: none;
-  font-size: 0.8rem;
-  font-weight: 400; }
+nav .nav_bar_row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center; }
+nav .nav_ul_first_row {
+  width: 40%; }
+  nav .nav_ul_first_row div {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    right: 20px; }
+    nav .nav_ul_first_row div li {
+      display: flex;
+      align-items: center;
+      width: 30%;
+      font-size: 0.8rem; }
+    nav .nav_ul_first_row div img {
+      width: 65%; }
+nav .nav_ul_second_row {
+  width: 45%; }
+  nav .nav_ul_second_row div {
+    display: flex;
+    justify-content: space-between; }
+    nav .nav_ul_second_row div li {
+      display: flex;
+      align-items: center;
+      margin: 4px;
+      width: 30%; }
+    nav .nav_ul_second_row div img {
+      width: 50%; }
+    nav .nav_ul_second_row div .user_pfp {
+      width: 85%; }
 nav li {
-  margin: -8px -3px; }
-nav img {
-  width: 65%; }
-nav .hamburger_menu {
-  width: 65%; }
-nav .text {
-  position: relative;
-  top: 3px; }
-
-.user_pfp {
-  width: 80%; }
+  list-style: none; }
 
 /*# sourceMappingURL=style.css.map */
