@@ -1,16 +1,45 @@
 $color : red;
 
+// *{
+//     border: solid 1px $color;
+// }
 
 img{
     width: 100%;
   }
 
-.user_pfp {
-    width: 100%;
-}
-
 nav {
     ul {
         list-style: none;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+
+    li{
+        margin: -8px -3px;
+    }
+
+    img{
+        width: 65%;
+    }
+
+    .hamburger_menu{
+        width: 65%;
+        
+    }
+
+    .text{
+        position: relative;
+        top: 3px;
     }
 }
+
+
+
+.user_pfp {
+    width: 80%;
+
+}
+
+

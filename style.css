@@ -1,10 +1,21 @@
 img {
   width: 100%; }
 
-.user_pfp {
-  width: 100%; }
-
 nav ul {
-  list-style: none; }
+  list-style: none;
+  font-size: 0.8rem;
+  font-weight: 400; }
+nav li {
+  margin: -8px -3px; }
+nav img {
+  width: 65%; }
+nav .hamburger_menu {
+  width: 65%; }
+nav .text {
+  position: relative;
+  top: 3px; }
+
+.user_pfp {
+  width: 80%; }
 
 /*# sourceMappingURL=style.css.map */
