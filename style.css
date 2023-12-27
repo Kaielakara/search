@@ -37,8 +37,10 @@ nav .nav_ul_second_row {
 nav li {
   list-style: none; }
 
-.google_logo img {
-  width: 45%; }
+.google_logo {
+  margin: 0; }
+  .google_logo img {
+    width: 45%; }
 
 form {
   display: flex;
@@ -75,5 +77,76 @@ form {
     width: 75%;
     margin: auto;
     text-decoration-line: none; }
+
+@media (min-width: 600px) {
+  nav .nav_ul_first_row {
+    width: 22%; }
+  nav .nav_ul_second_row {
+    width: 22%; } }
+.google_logo img {
+  margin-top: 6.5em;
+  width: 35%; }
+
+form .search_box {
+  width: 90%; }
+  form .search_box .fa-solid {
+    width: 5%; }
+  form .search_box .fa-magnifying-glass {
+    position: relative;
+    right: 10px; }
+  form .search_box .fa-camera {
+    position: relative;
+    left: 10px; }
+
+.offers {
+  flex-direction: row;
+  width: 50%;
+  margin: 2em auto;
+  font-size: .8rem; }
+  .offers .languages {
+    width: 70%; }
+
+@media (min-width: 1200px) {
+  nav .nav_bar_row {
+    width: 99%; }
+  nav .nav_ul_second_row {
+    width: 18%;
+    position: relative;
+    top: 15px; }
+    nav .nav_ul_second_row .gmail_text {
+      position: relative;
+      right: 23px; }
+    nav .nav_ul_second_row .images_text {
+      position: relative;
+      right: 18px; }
+
+  .google_logo img {
+    width: 21%;
+    margin-top: 0; }
+
+  form .search_box {
+    width: 45%;
+    margin: 0 auto;
+    transition: all 400ms ease-out; }
+  form .form_buttons {
+    flex-direction: row;
+    width: 22%;
+    margin: 1em auto;
+    justify-content: space-between;
+    font-size: .9rem; }
+    form .form_buttons input {
+      border: none;
+      padding: .8em 1.2em;
+      background-color: #F8F9FA; }
+    form .form_buttons button {
+      border: none;
+      padding: .8em 1.2em;
+      background-color: #F8F9FA; }
+
+  .search_box:hover {
+    box-shadow: 0 0 4px 0cqi gray; }
+
+  .offers {
+    width: 30%; } }
 
 /*# sourceMappingURL=style.css.map */

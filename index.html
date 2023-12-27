@@ -14,7 +14,8 @@
     <nav class="">
         <div class="nav_bar_row">
             <ul class="nav_ul_first_row">
-                <div class="w-100">
+                <!-- In this place we used bootstrap to manipulate the display in certain tags -->
+                <div class="w-100 d-lg-none">
                     <li class="">
                         <img src="img/hamburger_menu_more_navigation_icon.png" alt="menu toggle button"
                             class="hamburger_menu">
@@ -25,7 +26,10 @@
             </ul>
             <ul class="nav_ul_second_row">
                 <div class="w-100">
-                    <li class=""><img src="img/alarm_bell_icon.png" alt="" class=""></li>
+                    <!-- In this place we used bootstrap to manipulate the display of certain tags -->
+                    <li class="d-none d-lg-inline-block my-auto gmail_text">Gmail</li>
+                    <li class="d-none d-lg-inline-block my-auto images_text">Images</li>
+                    <li class="d-lg-none"><img src="img/alarm_bell_icon.png" alt="" class=""></li>
                     <li class=""><img src="img/menu_dots_icon.png" alt="" class=""></li>
                     <li class=""><img src="img/User_pfp.jpg" alt="The Users profile picture"
                             class="user_pfp rounded-circle"></li>
@@ -36,7 +40,7 @@
 
     <main>
 
-        <div class="google_logo row justify-content-center py-4 my-4 ">
+        <div class="google_logo row justify-content-center py-4 my-4  ">
             <img src="img/googlelogo_color_272x92dp.png" alt="logo of Google" class="">
         </div>
 
@@ -46,7 +50,10 @@
                 <input type="text" name="q">
                 <i class="fa-solid fa-camera"></i>
             </div>
-            <input type="submit" class="d-none" value="Google Search">
+            <div class="d-none d-lg-flex form_buttons">
+                <input class="rounded" type="submit" value="Google Search">
+                <button class="rounded">I'm Feeling Lucky</button>
+            </div>
         </form>
 
         <div class="offers">
