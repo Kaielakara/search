@@ -29,7 +29,7 @@ nav {
                 display: flex;
                 align-items: center;
                 width: 30%;
-                font-size: 0.8rem;
+                font-size: 0.85rem;
             }
 
             img{
@@ -66,8 +66,73 @@ nav {
     }
 }
 
+// this is the logo of google
+.google_logo{
+    img{
+        width: 45%;
+    }
+
+    
+}
 
 
+form{
+
+        .search_box{
+            width: 95%;
+            display: flex;
+            justify-content: space-between;
+
+            .fa-solid{
+                width: 10%;
+                font-size: 1.1rem;
+                margin: auto;
+                text-align: center;
+            }
+
+            .fa-magnifying-glass{
+                color: gray;
+            }
+
+            .fa-camera{
+
+            }
+            
+            input{
+                width: 80%;
+                border: none;
+                outline: none;
+                padding-left: 3px;
+            }
+
+        }
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    
+
+.offers{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    font-size: .9rem;
+    margin: 2em 0;
+    gap: .8em;
+
+    .languages{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        list-style: none;
+        width: 75%;
+        margin: auto;
+        text-decoration-line: none;
+    }
+}
 
 
-
+@media (min-width: 600px) {
+    
+}

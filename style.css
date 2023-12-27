@@ -17,7 +17,7 @@ nav .nav_ul_first_row {
       display: flex;
       align-items: center;
       width: 30%;
-      font-size: 0.8rem; }
+      font-size: 0.85rem; }
     nav .nav_ul_first_row div img {
       width: 65%; }
 nav .nav_ul_second_row {
@@ -36,5 +36,44 @@ nav .nav_ul_second_row {
       width: 85%; }
 nav li {
   list-style: none; }
+
+.google_logo img {
+  width: 45%; }
+
+form {
+  display: flex;
+  flex-direction: column; }
+  form .search_box {
+    width: 95%;
+    display: flex;
+    justify-content: space-between; }
+    form .search_box .fa-solid {
+      width: 10%;
+      font-size: 1.1rem;
+      margin: auto;
+      text-align: center; }
+    form .search_box .fa-magnifying-glass {
+      color: gray; }
+    form .search_box input {
+      width: 80%;
+      border: none;
+      outline: none;
+      padding-left: 3px; }
+
+.offers {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-size: .9rem;
+  margin: 2em 0;
+  gap: .8em; }
+  .offers .languages {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    width: 75%;
+    margin: auto;
+    text-decoration-line: none; }
 
 /*# sourceMappingURL=style.css.map */
