@@ -108,7 +108,7 @@ img {
       font-weight: 300;
       margin: auto 0; }
 
-  .google_button {
+  .google_button input {
     position: relative;
     left: 70px; } }
 

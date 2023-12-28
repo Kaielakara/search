@@ -180,7 +180,10 @@ img {
     }
 
     .google_button{
-        position: relative;
+        input{
+            position: relative;
         left: 70px;
+        }
+        
     }
 }
