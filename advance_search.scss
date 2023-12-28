@@ -44,6 +44,11 @@ img {
         border: 1px solid $border_color;
         border-top: 1px solid #C0C0C0;
         border-radius: 1px;
+        
+    }
+
+    input:focus{
+        outline: 1px $button_color inset;
     }
 
     .nums {
@@ -182,7 +187,7 @@ img {
     .google_button{
         input{
             position: relative;
-        left: 70px;
+            left: 70px;
         }
         
     }

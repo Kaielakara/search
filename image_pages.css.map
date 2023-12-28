@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,0BAA2B;EACvB,kBAAkB;IACd,KAAK,EAAE,GAAG",
+"sources": ["image_page.scss"],
+"names": [],
+"file": "image_pages.css"
+}

@@ -1,0 +1,56 @@
+.google_logo > div{
+    position: relative;
+    width: 48%;
+
+        img{  
+            width: 100%;   
+            margin: 0 auto;
+        }
+        
+        p{
+            position:absolute;
+            bottom: -18px;
+            right: 7px;
+            background-color: #FFFFFF;
+            font-size: .8rem;
+            color: #3E82F0;
+        }
+}
+
+@media (min-width: 600px) {
+    .google_logo > div{
+        width: 35%;
+        p{
+            bottom: -15px;
+            right: 17px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+
+    nav{
+        .nav_ul_second_row{
+            width: 12%;
+            
+
+            div{
+                display: flex;
+            justify-content: end;
+            }
+        }
+    }
+
+    
+
+    .google_logo > div{
+        position: relative;
+        width: 21%;
+
+
+            p{
+                right: 25px;
+            }
+    }
+    
+}
