@@ -1,0 +1,115 @@
+img {
+  width: 100%; }
+
+.title_div {
+  background-color: #F5F5F5;
+  padding: .6em 0 .4em 1em; }
+  .title_div h1 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: crimson; }
+
+.find_pages {
+  display: flex;
+  flex-direction: column;
+  width: 95%;
+  margin: auto;
+  gap: .6em; }
+
+.find_pages > div {
+  display: flex;
+  flex-direction: column;
+  font-size: .9rem; }
+  .find_pages > div .find_pages_text {
+    font-size: 1rem; }
+  .find_pages > div input {
+    width: 100%;
+    position: relative;
+    top: -10px;
+    border: 1px solid #d9d9d9;
+    border-top: 1px solid #C0C0C0;
+    border-radius: 1px; }
+  .find_pages > div .nums {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row; }
+    .find_pages > div .nums div {
+      width: 40%; }
+
+.google_button {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+  .google_button input {
+    background-color: #3E82F0;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 2px;
+    padding: .6em 1.1em;
+    font-size: .7rem;
+    font-weight: 600; }
+
+@media (min-width: 600px) {
+  .find_pages > div .num input {
+    width: 46%; } }
+@media (min-width: 900px) {
+  nav > div {
+    display: flex;
+    width: 97%;
+    justify-content: space-between;
+    margin: 1em auto; }
+    nav > div .nav_row_first {
+      width: 6%;
+      margin: auto 0; }
+      nav > div .nav_row_first img {
+        margin: auto; }
+    nav > div .nav_row_second {
+      width: 6%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between; }
+      nav > div .nav_row_second .div_images {
+        width: 25%;
+        margin: auto; }
+      nav > div .nav_row_second .User_pfp {
+        width: 165%; }
+
+  .title_div {
+    width: 94%;
+    margin: 1em auto;
+    padding: 1em 0;
+    border-bottom: 1px solid #d9d9d9;
+    background-color: #FFFFFF; }
+
+  .find_pages {
+    margin: 1em auto;
+    width: 94%;
+    border-bottom: 1px solid #d9d9d9;
+    padding: 1em 0; }
+
+  .find_pages > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 86%;
+    font-size: .8rem; }
+    .find_pages > div .find_pages_text {
+      font-size: 1.05rem; }
+    .find_pages > div input {
+      position: relative;
+      top: 0px; }
+    .find_pages > div .phrases {
+      width: 15%; }
+    .find_pages > div .input_div {
+      width: 50%; }
+    .find_pages > div .to_do_phrases {
+      width: 25%;
+      font-size: .7rem;
+      font-weight: 300;
+      margin: auto 0; }
+
+  .google_button {
+    position: relative;
+    left: 70px; } }
+
+/*# sourceMappingURL=advance_search.css.map */

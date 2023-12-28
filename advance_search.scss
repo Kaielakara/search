@@ -1,0 +1,186 @@
+$ash_color : #F5F5F5;
+$border_color: #d9d9d9;
+$button_color: #3E82F0;
+$background_color: #FFFFFF;
+
+
+img {
+    width: 100%;
+}
+
+
+.title_div {
+    background-color: $ash_color;
+    padding: .6em 0 .4em 1em;
+
+    h1 {
+        font-size: 1.3rem;
+        font-weight: 400;
+        color: crimson;
+    }
+}
+
+.find_pages {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin: auto;
+    gap: .6em;
+}
+
+.find_pages>div {
+    display: flex;
+    flex-direction: column;
+    font-size: .9rem;
+
+    .find_pages_text {
+        font-size: 1rem;
+    }
+
+    input {
+        width: 100%;
+        position: relative;
+        top: -10px;
+        border: 1px solid $border_color;
+        border-top: 1px solid #C0C0C0;
+        border-radius: 1px;
+    }
+
+    .nums {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+
+
+        div {
+            width: 40%;
+
+            input {}
+        }
+    }
+
+
+
+}
+
+    .google_button {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        input {
+            background-color: $button_color;
+            color: $background_color;
+            border: none;
+            border-radius: 2px;
+            padding: .6em 1.1em;
+            font-size: .7rem;
+            font-weight: 600;
+        }
+}
+
+@media (min-width : 600px) {
+
+    .find_pages>div {
+        .num {
+            input {
+                width: 46%;
+            }
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    nav>div {
+        display: flex;
+        width: 97%;
+        justify-content: space-between;
+        margin: 1em auto;
+
+
+
+        .nav_row_first {
+            width: 6%;
+            margin: auto 0;
+
+            img {
+                margin: auto;
+            }
+        }
+
+        .nav_row_second {
+            width: 6%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+
+            .div_images {
+                width: 25%;
+                margin: auto;
+            }
+
+            .User_pfp {
+                width: 165%;
+            }
+        }
+    }
+
+    .title_div {
+        width: 94%;
+        margin: 1em auto;
+        padding: 1em 0;
+        border-bottom: 1px solid $border_color;
+        background-color: #FFFFFF;
+    }
+
+    .find_pages {
+        margin: 1em auto;
+        width: 94%;
+        border-bottom: 1px solid $border_color;
+        padding: 1em 0;
+
+    }
+
+    .find_pages>div {
+
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 86%;
+        font-size: .8rem;
+
+
+
+        .find_pages_text {
+            font-size: 1.05rem;
+        }
+
+        input {
+            position: relative;
+            top: 0px;
+        }
+
+        .phrases {
+            width: 15%;
+        }
+
+        .input_div {
+            width: 50%;
+        }
+
+        .to_do_phrases {
+            width: 25%;
+            font-size: .7rem;
+            font-weight: 300;
+            margin: auto 0;
+        }
+
+        .nums {}
+    }
+
+    .google_button{
+        position: relative;
+        left: 70px;
+    }
+}
