@@ -1,3 +1,19 @@
+nav .nav_ul_first_row div .all_text {
+  position: relative;
+  top: 2px;
+  display: inline-block; }
+nav .nav_ul_first_row div .all_text::after {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 130%;
+  height: 2px;
+  /* Adjust thickness as needed */
+  /* Adjust color as needed */
+  margin-top: 4px;
+  /* Adjust spacing as needed */ }
+
 .google_logo > div {
   position: relative;
   width: 48%; }
