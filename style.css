@@ -18,8 +18,28 @@ nav .nav_ul_first_row {
       align-items: center;
       width: 30%;
       font-size: 0.85rem; }
+    nav .nav_ul_first_row div .all_text {
+      position: relative;
+      top: 2px;
+      display: inline-block;
+      color: #4285F4; }
+    nav .nav_ul_first_row div .all_text::after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      left: -8px;
+      width: 100%;
+      height: 2px;
+      /* Adjust thickness as needed */
+      background-color: #4285F4;
+      /* Adjust color as needed */
+      margin-top: 4px;
+      /* Adjust spacing as needed */ }
     nav .nav_ul_first_row div img {
       width: 65%; }
+    nav .nav_ul_first_row div a {
+      text-decoration: none;
+      color: black; }
 nav .nav_ul_second_row {
   width: 45%; }
   nav .nav_ul_second_row div {
@@ -119,6 +139,9 @@ form .search_box {
     nav .nav_ul_second_row .images_text {
       position: relative;
       right: 18px; }
+    nav .nav_ul_second_row a {
+      text-decoration: none;
+      color: black; }
 
   .google_logo img {
     width: 21%;
